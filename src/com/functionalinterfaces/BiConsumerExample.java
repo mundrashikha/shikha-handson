@@ -10,6 +10,7 @@ public class BiConsumerExample {
 	
 	
 	public static void nameAndActivities() {
+		//comment added for custom branch 2
 		
 		BiConsumer<String, List<String>> b1=(name,activities)->System.out.println("Name: "+name+" and Activities:"+activities);
 		List<Student> studentList = StudentDataBase.getAllStudents();
